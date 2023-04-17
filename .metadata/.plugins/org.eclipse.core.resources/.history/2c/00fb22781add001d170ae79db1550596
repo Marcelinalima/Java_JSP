@@ -1,0 +1,80 @@
+package calculadora;
+
+public class Calculadora {
+	@SuppressWarnings("unused")
+	private double valor1;
+	@SuppressWarnings("unused")
+	private double valor2;
+	private String operação;
+	
+	private String mensagem;
+
+	
+	/**
+	 * 
+	 * @param v1 recebe o valor 1 para realizar o calculo(tipo:String)
+	 */
+	
+	public void setValor1(String v1) {
+		
+		try {
+			this.valor1 = Double.parseDouble (v1);
+		}catch(NumberFormatException e) {
+			
+			this.mensagem +="<br> O valor 1 parece não ser um número válido!";
+		}
+		
+	}
+
+	public void setValor2(String v2) {
+		
+			try {
+				this.valor2 = Double.parseDouble (v2);
+			}catch(NumberFormatException e) {
+				
+				this.mensagem +="<br> O valor 2 parece não ser um número válido!";
+			}
+			
+		}
+
+	public String getOperação() {
+		return operação;
+	}
+
+	public void setOperação(String operação) {
+		this.operação = operação;
+	}
+
+	public String getMensagem() {
+		return mensagem;
+	}
+
+	public boolean validar() {
+		return !mensagem.equals("");
+		
+	}
+	public double calcular () {
+		 double resultado =0.0;
+		 
+		 switch (operação) {
+		    case "adicao":
+		    	 resultado =(valor1 + valor2);
+		    	break;
+		    case "Subtrair":
+		    	resultado =(valor1 - valor2);
+		    	break;
+		    case "multiplicação":
+		    	resultado =(valor1 * valor2);
+		    	break;
+		    	
+		    case "divisao":
+		    	resultado =(valor1 / valor2);
+		    	break;
+		    		
+		    	
+		 }
+		 return resultado;
+		
+	}
+
+}

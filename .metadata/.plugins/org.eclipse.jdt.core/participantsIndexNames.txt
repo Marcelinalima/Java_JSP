@@ -1,0 +1,9 @@
+INDEX VERSION 1.132
+C:\Users\DELL\Desktop\Dev-javaJsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3745392881.index
+\projeto_pesquisa\src\main\java
+C:\Users\DELL\Desktop\Dev-javaJsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2505376307.index
+\Execicios_JSP\src\main\java
+C:\Users\DELL\Desktop\Dev-javaJsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2788590924.index
+\Execicios_JSP\src\main\java
+C:\Users\DELL\Desktop\Dev-javaJsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\789906813.index
+\web-jsp\src\main\java

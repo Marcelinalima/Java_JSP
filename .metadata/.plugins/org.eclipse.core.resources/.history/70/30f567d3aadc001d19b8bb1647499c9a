@@ -1,0 +1,44 @@
+package calculadora;
+
+public class CalculadoraVirtual {
+	@SuppressWarnings("unused")
+	private double valor1;
+	@SuppressWarnings("unused")
+	private double valor2;
+	private String operação;
+	
+	private String mensagem;
+
+	
+	public void setValor1(String v1) {
+		
+		try {
+			this.valor1 = Double.parseDouble (v1);
+		}catch(NumberFormatException e) {
+			
+			this.mensagem +="<br> O valor 1 parece não ser um número válido!";
+		}
+		
+	}
+
+	
+
+	public void setValor2(double valor2) {
+		this.valor2 = valor2;
+	}
+
+	public String getOperação() {
+		return operação;
+	}
+
+	public void setOperação(String operação) {
+		this.operação = operação;
+	}
+
+	public String getMensagem() {
+		return mensagem;
+	}
+
+	
+
+}

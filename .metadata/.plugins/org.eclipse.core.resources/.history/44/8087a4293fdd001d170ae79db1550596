@@ -1,0 +1,27 @@
+package entidades;
+
+public class reclamacoes {
+	
+	@SuppressWarnings("unused")
+	private String informeOEndereço;
+	@SuppressWarnings("unused")
+	private String tipoDeProblema ;
+	@SuppressWarnings("unused")
+	private String relateOProblema;
+	
+	public reclamacoes() {}
+	
+	public reclamacoes(String informeOEndereço, String tipoDeProblema, String relateOProblema) {
+	
+		this.informeOEndereço = informeOEndereço;
+		this.tipoDeProblema = tipoDeProblema;
+		this.relateOProblema = relateOProblema;
+	}
+	
+	
+
+
+	
+	
+
+}

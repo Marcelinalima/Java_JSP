@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>CalculadoraVirtual</title>
+		<meta name="viewport" content="width=divece-width, initial -scale-1.0">
+	</head>
+	<body>
+	    
+	   <div class="Container">
+	        <h1>CalculadoraVirtual</h1>
+	      <form action = "/Exercicios_JSP/saida.jsp"  method="post">
+         
+                 <input type="number" name="valor1" value="" placeholder= "valor 1" required><br><br>
+                  <select name="operação">
+                  <option value="adicao">Adicao</option>
+                  <option value="subtração">Subtração</option>
+                  <option value="multiplicação">Multiplicação</option>
+                  <option value="divisão">Divisão</option> 
+               </select><br><br>
+              
+              <input type="text" name="valor2" value=""placeholder= "valor 2"required><br><br>
+             
+              <input type="submit" name="bt" value="Calcular"><br><br>
+          </form>
+          
+	    </div>
+        
+<body>       
+</html>

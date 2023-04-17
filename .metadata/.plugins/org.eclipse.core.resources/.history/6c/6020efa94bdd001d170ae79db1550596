@@ -1,0 +1,15 @@
+package servlets;
+
+public class Reclamacoes {
+
+	public void setInformeOEndereço(String parameter) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String getInformeOEndereco() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

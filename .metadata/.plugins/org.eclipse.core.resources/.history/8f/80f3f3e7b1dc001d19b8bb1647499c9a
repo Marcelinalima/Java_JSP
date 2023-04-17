@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<meta name="viewport" content="width=divece-width, initial -scale-1.0">
+	</head>
+	<body>
+	
+         <form action "saida.jsp"  method="post">
+              <input type="text" name="valor1" value="" placeholder= "valor 1"<br><br>
+              <select name="operação">
+                  <option value="adicao">Adicao</option>
+                  <option value="subtração">Subtração</option>
+                  <option value="multiplicação">Multiplicação</option>
+                  <option value="divisão">Divisão</option> 
+               </select><br><br>
+              
+              <input type="text" name="valor2" value=""placeholder= "valor 2"<br><br>
+             
+              <input type="submit" name="bt" value="Calcular"<br><br>
+  
+          </form>
+</body>
+</html>

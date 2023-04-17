@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portal Cidadão</title>
+</head>
+<body>
+    <h1>Portal do Cidadão - Problemas no Bairro</h1>
+    
+    <form action="/Formulario_ex/ReclamacoesServelet" method="post"></form>
+    
+      <p>Informe o endereço: <input type="text" name="p_nome" size="30" /></p>
+		
+		
+		<p>Tipo o Problema:</p>
+		<p><input type="checkbox" name="p_prob1" value="hospitais" />Hospitais</p>
+		<p><input type="checkbox" name="p_prob2" value="praias" />Praias</p>
+		<p><input type="checkbox" name="p_prob3" value="centro de saude" />Centro de Saúde</p>
+		
+		<p>Relate o Problema:</p>
+		 <textarea name="message" rows="10" cols="30">
+		 The cat was playing in the garden.</textarea>
+		
+		<p>
+			<input type="submit" value="Enviar" />
+			<input type="reset" value="Limpar" />
+		</p>    
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portal Cidadão</title>
+</head>
+<body>
+    <h1>Portal do Cidadão - Problemas no Bairro</h1>
+    <form action="/Formulario_ex/ReclamacoesServelet" method="post"></form>
+    
+
+</body>
+</html>

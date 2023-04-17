@@ -1,0 +1,51 @@
+package entidades;
+
+public class reclamacoes {
+	
+	@SuppressWarnings("unused")
+	private String informeOEndereço;
+	@SuppressWarnings("unused")
+	private String tipoDeProblema ;
+	@SuppressWarnings("unused")
+	private String relateOProblema;
+	
+	public reclamacoes() {}
+	
+	public reclamacoes(String informeOEndereço, String tipoDeProblema, String relateOProblema) {
+	
+		this.informeOEndereço = informeOEndereço;
+		this.tipoDeProblema = tipoDeProblema;
+		this.relateOProblema = relateOProblema;
+	}
+
+	public String getInformeOEndereço() {
+		return informeOEndereço;
+	}
+
+	public void setInformeOEndereço(String informeOEndereço) {
+		this.informeOEndereço = informeOEndereço;
+	}
+
+	public String getTipoDeProblema() {
+		return tipoDeProblema;
+	}
+
+	public void setTipoDeProblema(String tipoDeProblema) {
+		this.tipoDeProblema = tipoDeProblema;
+	}
+
+	public String getRelateOProblema() {
+		return relateOProblema;
+	}
+
+	public void setRelateOProblema(String relateOProblema) {
+		this.relateOProblema = relateOProblema;
+	}
+	
+	
+
+
+	
+	
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portal Cidadão</title>
+</head>
+<body>
+    <h1>Portal do Cidadão - Problemas no Bairro</h1>
+    
+    <form action="/formulario_ex/ReclamacoesServelet" method="post">
+    
+      <p>Informe o endereço: <input type="text" name="i_end" size="30" /></p>
+		
+	  <label for= "tipo de problemas" type= "text" name="t_prob">Tipo de Problemas:</label>
+		
+		<select name="Tipo de problema">
+			<option selected="selected" disabled>Selecione aqui</option>
+			<option value="hospitais"> Hospitais</option>
+			<option value="centro de saude">Centro de Saúde</option>
+			<option value="praias">Praias</option>
+			<option value="ruas">Ruas</option>
+			<option value="escolas">Escolas</option>
+	    </select>
+	    <br><br>
+	    
+	     <label for="Relate o Problema">Relate o Problema:</label>
+		 <textarea name="message" rows="10" cols="30"></textarea>	
+		
+		<p>
+			<input type="submit" value="Enviar" />
+			<input type="reset" value="Limpar" />
+		</p>  
+		
+	</form>	
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<meta name="viewport" content="width=divece-width, initial -scale-1.0">
+	</head>
+	
+	<body>
+  <form action "saida.jsp"  method="post">
+   <input type="text" name="valor1" value
+  
+  </form>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<%@page import="java.util.List"%>
+<%@page import="entidades.Pesquisa"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ConfirmaçãoInsercao</title>
+</head>
+<body>
+ <%
+ 
+     Pesquisa pesquisa = (Pesquisa) request.getAttribute("pesquisa");
+    
+ %>
+ <h1> <%=pesquisa.getId() %></h1>
+ <h1> <%=pesquisa.getNome() %></h1>
+ 
+ 
+
+</body>
+</html>

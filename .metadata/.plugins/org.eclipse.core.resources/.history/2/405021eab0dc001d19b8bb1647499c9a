@@ -1,0 +1,10 @@
+<@page import="calculadora.Calculadora"%>
+
+<%
+
+ Calculadora c = new Calculadora();
+   c.setValor1(v1);
+
+
+%>
+<br><br><a href="calculadoravirtual.html">Voltar</a>

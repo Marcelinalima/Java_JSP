@@ -1,0 +1,11 @@
+package servlets;
+
+import entidades.Pesquisa;
+
+public class ServicoDoBancoDeDados {
+
+	public Pesquisa salvar(Pesquisa pesquisa) {
+		
+	}
+
+}

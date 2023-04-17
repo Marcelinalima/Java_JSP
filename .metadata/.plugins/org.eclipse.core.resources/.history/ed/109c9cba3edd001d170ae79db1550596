@@ -1,0 +1,13 @@
+package entidades;
+
+public class reclamacoes {
+	
+	private String informeOEndereço;
+	private String tipoDeProblema ;
+	private String relateOPproblema;
+
+
+	
+	
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dados de Pesquisa</title>
+</head>
+<body>
+
+   <h1> Dados para Pesquisas</h1>
+   
+  <form action=" /projeto_pesquisa/PesquisaInclusãoServlet" method="post">
+     <p>Nome: <input type="text" name="p_nome" size="30"></p>
+     <p>Email: <input type="email" name="p_email" size="30"></p>
+       
+       
+     <p> Sexo : </p>
+     <p>Masculino  <input type="radio" name="p_sexo" value="masculino"></p>
+     <p>Feminino  <input type="radio" name="p_sexo" value="feminino"></p>
+       
+     <p> Tipos preferidos de filmes: </p>
+     <p> <input type="radio" name="p_sexo" value="feminino"></p>
+       
+   </form>
+   
+</body>
+</html>
