@@ -30,7 +30,7 @@ public class ExcluirPesquisaServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-	 	int id = Integer.parseInt(request.getParameter("p_id"));
+	 	int id= Integer.parseInt(request.getParameter("p_id"));
 	 	servicoBd.deletar(id);
 	 	
 	 	RequestDispatcher rd = request.getRequestDispatcher("/listarPesquisas.jsp");

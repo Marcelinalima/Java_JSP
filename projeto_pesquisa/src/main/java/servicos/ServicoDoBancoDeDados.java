@@ -5,7 +5,7 @@ import java.util.List;
 import entidades.Banco;
 import entidades.Pesquisa;
 
-public class ServicoDoBancoDeDados {
+public  class ServicoDoBancoDeDados {
 
 	Banco banco = new Banco();
 	
@@ -22,7 +22,7 @@ public class ServicoDoBancoDeDados {
 			return banco.salvar(pesquisa);
 		}
 	}
-	
+	 //Pesquisa populada recebe do Servlets
 	public Pesquisa atualizar(Pesquisa pesquisaPopulada) {
 		return banco.atualizar(pesquisaPopulada);
 	}

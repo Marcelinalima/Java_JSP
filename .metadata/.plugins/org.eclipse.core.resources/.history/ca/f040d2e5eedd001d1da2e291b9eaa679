@@ -1,0 +1,5 @@
+package servicos.impl;
+
+public interface ServicosDoBancoDeDados {
+
+}

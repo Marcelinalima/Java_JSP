@@ -1,0 +1,9 @@
+package servicos.impl;
+
+import entidades.Pesquisa;
+import servicos.ServicoDoBancoDeDados;
+
+public class SevicosDoBancoDeDadosImpl implements ServicosDoBancoDeDados{
+	
+    
+}

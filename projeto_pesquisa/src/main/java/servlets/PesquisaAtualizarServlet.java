@@ -42,7 +42,7 @@ public class PesquisaAtualizarServlet extends HttpServlet {
 		servicoBD.atualizar(pesquisa);
 		
 		RequestDispatcher rd = request.getRequestDispatcher("/listarPesquisas.jsp");
-		request.setAttribute("pesquisas", servicoBD.procurarTodos());
+		request.setAttribute( "pesquisas" , servicoBD.procurarTodos());
 		rd.forward(request, response);
 	}
 

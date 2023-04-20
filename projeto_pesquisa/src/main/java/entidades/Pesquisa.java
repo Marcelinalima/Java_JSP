@@ -12,6 +12,7 @@ public class Pesquisa {
 	private String check3;
 	private String estadoCivil;
 	
+	
 	public Pesquisa() {}
 	
 	public Pesquisa(int id, String nome, String email, String sexo, String check1, String check2, String check3,
